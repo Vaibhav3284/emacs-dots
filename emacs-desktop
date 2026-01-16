@@ -1,0 +1,67 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Jan 16 03:36:59 2026
+;; Desktop file format version 208
+;; Emacs version 30.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (26985 25859 357510 95000) (desktop . "208") "bored@fedora" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-CTDB-Fira Code-regular-normal-normal-*-13-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 1) (bottom-divider-width . 1) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#bbc2cf") (background-color . "#282c34") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 10) (right-fringe . 10) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#51afef") (font-parameter) (sticky) (environment) (last-focus-update . t) (frameset--id . "4314-2C06-6517-D319") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . "wayland-0") (explicit-name) (height . 43) (width . 168) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 64) (min-pixel-width . 160) (min-pixel-height-ignore . 48) (min-pixel-width-ignore . 80) (min-pixel-height-safe . 16) (min-pixel-width-safe . 32)) hc (pixel-width . 1366) (pixel-height . 686) (total-width . 171) (total-height . 42) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 680) (pixel-height . 686) (total-width . 85) (total-height . 42) (normal-height . 1.0) (normal-width . 0.49696969696969695) (buffer "The Rust Programming Language.pdf" (selected . t) (hscroll . 0) (fringes 10 10 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)) (prev-buffers ("Downloads" 1 181) ("init.el" 1992 2545) ("asdf.rs" 1 51))) (leaf (last . t) (pixel-width . 686) (pixel-height . 686) (total-width . 86) (total-height . 42) (normal-height . 1.0) (normal-width . 0.503030303030303) (buffer "asdf.rs" (selected) (hscroll . 0) (fringes 10 10 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 51) (start . 1)) (prev-buffers ("asdf.rs" 1 51)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/Downloads/" "~/Downloads/The Rust Programming Language.pdf" "~/.emacs.d/init.el" "~/Downloads/The Rust Programming Language.pdf" "~/proj/asdf.rs" "~/.emacs.d/init.el" "~/Downloads/The Rust Programming Language.pdf" "~/.emacs.d/init.el" "~/Downloads/The Rust Programming Language.pdf" "~/proj/asdf.rs" "~/.emacs.d/init.el" "~/Downloads/The Rust Programming Language.pdf"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/bored/Downloads/The Rust Programming Language.pdf"
+  "The Rust Programming Language.pdf"
+  'pdf-view-mode
+  nil
+  1
+  '(1 nil)
+  t
+  nil
+  '((buffer-display-time 26985 25854 33188 622000) (buffer-file-coding-system . no-conversion))
+  '((mark-ring (14818867))))
+
+(desktop-create-buffer 208
+  nil
+  "Downloads"
+  'dired-mode
+  '(font-lock-mode display-line-numbers-mode pdf-occur-dired-minor-mode)
+  181
+  '(nil nil)
+  t
+  '("/home/bored/Downloads/")
+  '((buffer-display-time 26985 25851 554846 752000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/bored/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(company-mode display-line-numbers-mode eldoc-mode font-lock-mode)
+  2545
+  '(2181 nil)
+  nil
+  nil
+  '((buffer-display-time 26985 25845 448348 785000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (2180 2180 1969 1969 5533 2184 1969 2545 2387 2320 1969 1969 1948 1948 1932 2545))))
+
+(desktop-create-buffer 208
+  "/home/bored/proj/asdf.rs"
+  "asdf.rs"
+  'rustic-mode
+  '(company-mode)
+  51
+  '(12 nil)
+  nil
+  nil
+  '((buffer-display-time 26985 25845 448348 995000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (51 51 51 51 51 34 41 43 51 51 51))))
+

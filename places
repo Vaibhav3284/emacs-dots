@@ -1,0 +1,6 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/bored/proj/asdf.rs" . 51)
+ ("/home/bored/.emacs.d/init.el" . 2545)
+ ("/home/bored/Downloads/"
+  (dired-filename
+   . "/home/bored/Downloads/The Rust Programming Language.pdf")))
