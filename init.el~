@@ -43,7 +43,7 @@
 (use-package lsp-mode
   :hook ((python-mode . lsp)
         
-  :custom (lsp-headerline-breadcrumb-enable nil)))
+  :custom (lsp-headerline-breadcrumb-enable nil))
 
 (use-package lsp-ui :commands lsp-ui-mode)
 
