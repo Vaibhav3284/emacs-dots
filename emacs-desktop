@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Feb  5 07:37:49 2026
+;; Created Mon Mar  9 02:16:14 2026
 ;; Desktop file format version 208
 ;; Emacs version 30.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (27011 64373 847312 515000) (desktop . "208") "bored@fedora" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-CTDB-Fira Code-regular-normal-normal-*-13-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (child-frame-border-width) (right-divider-width . 1) (bottom-divider-width . 1) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#bbc2cf") (background-color . "#282c34") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 10) (right-fringe . 10) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tab-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (alpha-background) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#51afef") (font-parameter) (sticky) (environment) (last-focus-update . t) (frameset--id . "4314-2C06-6517-D319") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . "wayland-0") (explicit-name) (height . 43) (width . 168) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 5) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 64) (min-pixel-width . 80) (min-pixel-height-ignore . 48) (min-pixel-width-ignore . 40) (min-pixel-height-safe . 16) (min-pixel-width-safe . 16)) leaf (pixel-width . 1366) (pixel-height . 684) (total-width . 170) (total-height . 42) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 10 10 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1125) (start . 1)) (prev-buffers ("init.el" 1 1))))])
+(setq desktop-saved-frameset [frameset 1 (27053 57366 674720 5000) (desktop . "208") "bored@archlinux" nil nil ((((minibuffer . t) (display-type . mono) (background-mode . dark) (scroll-bar-foreground) (scroll-bar-background) (cursor-color . "#b0d0f0") (menu-bar-lines . 0) (tool-bar-lines . 0) (vertical-scroll-bars) (right-fringe . 10) (left-fringe . 10) (foreground-color . "#e8e8d3") (background-color . "#151515") (right-divider-width . 1) (bottom-divider-width . 1) (font . "tty") (height . 25) (width . 80) (modeline . t) (unsplittable) (tab-bar-lines . 0) (frameset--id . "25BD-1392-7CA9-188C") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 80) (pixel-height . 24) (total-width . 80) (total-height . 24) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 0 0 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1062) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -22,22 +22,22 @@
   "init.el"
   'emacs-lisp-mode
   '(font-lock-mode eldoc-mode display-line-numbers-mode company-mode)
-  1125
-  '(1 nil)
+  1062
+  '(3336 nil)
   nil
   nil
-  '((buffer-display-time 27011 64370 215391 89000) (buffer-file-coding-system . prefer-utf-8-unix))
-  '((mark-ring (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1))))
+  '((buffer-display-time 27053 57329 18672 39000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1 3336 1 252 3336 1 1 1 1 1 1 1 1 1 1 1062))))
 
 (desktop-create-buffer 208
   nil
   "Downloads"
   'dired-mode
-  '(pdf-occur-dired-minor-mode display-line-numbers-mode font-lock-mode)
-  181
+  '(display-line-numbers-mode font-lock-mode)
+  119
   '(nil nil)
   t
   '("/home/bored/Downloads/")
-  '((buffer-display-time 27011 64370 212936 46000))
+  '((buffer-display-time 27053 56694 109225 224000))
   '((mark-ring nil)))
 

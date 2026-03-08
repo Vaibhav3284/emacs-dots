@@ -1,4 +1,5 @@
-;; --- 1. CORE UI (Minimalism) ---
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with ‘C-x C-f’ and enter text in its buffer.;; --- 1. CORE UI (Minimalism) ---
 (setq inhibit-startup-message t)
 (menu-bar-mode -1)
 (tool-bar-mode -1)
@@ -25,8 +26,11 @@
 (setq use-package-always-ensure t)
 
 ;; --- 3. LOOK & FEEL ---
-(use-package doom-themes
-  :config (load-theme 'doom-one t))
+
+(add-to-list 'custom-theme-load-path
+             "~/.emacs.d/emacs-boron-theme")
+(load-theme 'boron t)
+
 
 (use-package doom-modeline
   :init (doom-modeline-mode 1))
@@ -108,4 +112,14 @@
 
 ;; Clean up the auto-generated custom-set-variables
 (custom-set-variables
- '(package-selected-packages '(doom-themes doom-modeline all-the-icons vertico marginalia orderless lsp-mode lsp-ui company pdf-tools vterm projectile)))
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

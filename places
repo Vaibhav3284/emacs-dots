@@ -1,5 +1,3 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/bored/Downloads/"
-  (dired-filename
-   . "/home/bored/Downloads/linuxmint-22.2-cinnamon-64bit.iso"))
- ("/home/bored/.emacs.d/init.el" . 1125))
+(("/home/bored/Downloads/" . 119)
+ ("/home/bored/.emacs.d/init.el" . 1062))
