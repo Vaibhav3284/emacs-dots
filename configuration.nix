@@ -100,8 +100,8 @@
   programs.fish = {
     enable = true;
     shellAliases = {
-      switch = "sudo nixos-rebuild switch";
-      config = "sudo emacs /etc/nixos/configuration.nix";
+      rebuild = "sudo nixos-rebuild switch";
+      config = "sudo emacs ~/dots/configuration.nix";
     };
   };
   
@@ -112,9 +112,13 @@
     gcc
     nh
   ];
-  environment.sessionVariables = {
-    FLAKE = "home/bored/dots";
-  }
+
+  programs.nh = {
+    enable = true;
+    clean.enable = true;
+    clean.extraArgs = "--keep-since 4d --keep 3";
+    flake = "/home/user/my-nixos-config"; # sets NH_OS_FLAKE variable for you
+  };
 
   system.stateVersion = "25.11"; # Did you read the comment?
 
